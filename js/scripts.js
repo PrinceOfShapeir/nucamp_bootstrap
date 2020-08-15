@@ -12,4 +12,11 @@ $(function(){//this is shorthand for document.ready
             $("#carouselButton").children("i").addClass("fa-pause");
         }
     });
+    $("#reserveButton").click(()=>{
+        $("#reserveModal").modal("show");
+    });
+    $("#loginButton").click(()=>{
+        $("#loginModal").modal("show");
+
+    });
 });
